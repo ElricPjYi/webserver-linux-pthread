@@ -1,6 +1,5 @@
-# webserver-linux-pthread
+# Webserver-linux-pthread
 
-# Project Name
 
 Lightweight Multi-Threaded Network Server
 
@@ -10,11 +9,11 @@ This project is a lightweight multi-threaded network server developed in C++ for
 
 ## Key Features
 
-- Supports remote network communication based on Socket and utilizes epoll for I/O multiplexing and socket monitoring.
-- Implements a thread pool to efficiently handle events (I/O operations, exceptions, and timers) from the event ready queue using multiple threads.
-- Wraps Linux locks, placing lock creation and destruction functions in the class's constructor and destructor, simplifying multi-threaded programming.
-- Uses a finite state machine to parse HTTP request messages and generate appropriate response messages.
-- Implements a timer using a doubly-linked list to periodically check and close inactive connections, improving server resource utilization.
+- Supports remote network communication based on Socket and utilizes **epoll** for **I/O multiplexing** and socket monitoring.
+- Implements a **thread pool** to efficiently handle events (I/O operations, exceptions, and timers) from the event ready queue using multiple threads.
+- Wraps **Linux locks**, placing lock creation and destruction functions in the class's constructor and destructor, simplifying multi-threaded programming.
+- Uses a **finite state machine** to parse HTTP request messages and generate appropriate response messages.
+- Implements a timer using a **doubly-linked list** to periodically check and close **inactive connections**, improving server resource utilization.
 
 ## Requirements
 
@@ -26,7 +25,7 @@ This project is a lightweight multi-threaded network server developed in C++ for
 1. Clone the project to your local machine:
 
 ```bash
-git clone https://github.com/your_username/webserver.git
+git clone https://github.com/ElricPjYi/webserver-linux-pthread.git
 cd webserver
 ```
 
@@ -67,13 +66,10 @@ int main() {
 
 Feedback and suggestions for this project are welcome! If you wish to contribute, feel free to submit a Pull Request, and we'll review and merge outstanding code.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Author
 
-- Author: Your Name
+- Author: Elric PJ
 - GitHub: [Your GitHub Profile](https://github.com/your_username)
 
 ## Acknowledgments
