@@ -32,13 +32,13 @@ cd webserver
 2. Build the project:
 
 ```bash
-make
+g++ *.cpp -pthread
 ```
 
 3. Run the server:
 
 ```bash
-./webserver
+./a.out 80
 ```
 
 ## Usage Example
